@@ -18,6 +18,6 @@ seed_examples:
    answer: The $39,713,982.25 jackpot won in Las Vegas on March 21, 2003 was equivalent to £25,361,761.
 document:
  repo: https://github.com/gwfriedrich/las-vegas-gambling-knowledge.git
- commit: 2f3b881
+ commit: 3cb67a1
  patterns:
    - biggest_vegas_jackpots.md
