@@ -1,0 +1,23 @@
+task_description: 'Teach the model about record breaking Las Vegas jackpots'
+created_by: cedricclyburn
+domain: trivia
+seed_examples:
+ - question: When and where was the biggest Las Vegas slot machine jackpot won?
+   answer: |
+     The biggest Las Vegas slot jackpot of $39,713,982.25 was won on March 21, 2003 on a
+     Megabucks machine at the Excalibur Hotel-Casino in Las Vegas, Nevada, USA.
+ - question: How much money did the winner put in the slot machine before hitting the record jackpot?
+   answer: The winner put $100 into the Megabucks machine before winning the $39,713,982.25 jackpot.
+ - question: What was the occupation and hometown of the winner of the largest Vegas slot jackpot?
+   answer: |
+     The winner of the $39,713,982.25 Megabucks jackpot in 2003 was a 25-year-old software
+     engineer from Los Angeles.
+ - question: What is the exact amount of the largest slot machine payout in Las Vegas?
+   answer: The largest slot machine payout in Las Vegas is $39,713,982.25.
+ - question: How much was the record-breaking Las Vegas jackpot worth in British pounds?
+   answer: The $39,713,982.25 jackpot won in Las Vegas on March 21, 2003 was equivalent to £25,361,761.
+document:
+ repo: https://github.com/gwfriedrich/las-vegas-gambling-knowledge.git
+ commit: 46fea64
+ patterns:
+   - biggest_vegas_jackpots.md
